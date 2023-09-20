@@ -16,7 +16,9 @@ namespace Practica1.Ej2
             Console.Write("Ingrese el nombre de una ciudad: ");
             string? cityName = Console.ReadLine();
 
-            Console.WriteLine("Hola " + personName + " bienvenido a " + cityName);
+            
+            Console.WriteLine($"Hola {personName} bienvenido a {cityName} ");
+            Console.ReadLine();
         }
     }
 }
